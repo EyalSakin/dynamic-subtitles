@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {DEFAULT_VTT_CONTENT} from "./constants";
+import {DEFAULT_VTT_CONTENT} from "./default-vtt-content";
 
 @Component({
   selector: 'app-root',
