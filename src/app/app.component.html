@@ -3,7 +3,7 @@
         <source src="../assets/star-wars.mp4" type="video/mp4">
         <track [src]="subtitlesSrc" kind="subtitles" srclang="en" label="English" default/>
     </video>
-    <h3>Insert WEBVTT content:</h3>
+    <h3>Insert WEBVTT formatted content:</h3>
     <textarea class="container__textarea" [(ngModel)]="text"></textarea>
     <button (click)="generateSubtitles()">Generate Subtitles</button>
 </div>
